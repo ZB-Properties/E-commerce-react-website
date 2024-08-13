@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 992px) {
+    .time-wrapper {
+        justify-content: center;
+        align-items: center;
+    }
+    .time-data h1 {
+        font-size: 20px !important;
+    }
+    .time-data h4 {
+        font-size: 17px !important;
+    }
+   
+} 

@@ -1,0 +1,91 @@
+.recommend-flex {
+    display: flex;
+    margin-left: 16rem;
+    margin-top: 5px;
+}
+.recommend-title {
+ margin-left: 16rem;
+ margin-bottom: 20px;
+ font-size: 22px;
+}
+.btn {
+ padding: 10px 20px;
+ margin-right: 5px;
+ background: transparent;
+ border: 0.6px solid rgb(204, 0, 255, 0.8);
+ border-radius: 4px;
+ color: black;
+ font-size: 17px;
+ cursor: pointer;
+}
+.btn:hover {
+ background-color: rgb(204, 0, 255, 0.8);
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width:575px) {
+    .recommend-title {
+        font-size: 15px;
+        margin-left: 9rem;
+    }
+    .btn {
+        padding: 2px 5px;
+        font-size: 8.5px;
+    }
+    .recommend-flex {
+        margin-left: 8rem;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:659px) {
+    .recommend-title {
+        font-size: 15px;
+        margin-left: 10rem;
+    }
+    .btn {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+    .recommend-flex {
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width: 660px) and (max-width:767px) {
+    .recommend-title {
+        font-size: 16px;
+        margin-left: 10rem;
+    }
+    .btn {
+        padding: 5px 8px;
+        font-size: 10px;
+    }
+    .recommend-flex {
+        margin-left: 10rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:990px) {
+    .recommend-title {
+        font-size: 17px;
+        margin-left: 11rem;
+    }
+    .btn {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+    .recommend-flex {
+        margin-left: 11rem;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1200px) {
+    .recommend-title {
+        font-size: 19px;
+        margin-left: 13rem;
+    }
+    .btn {
+        padding: 10px 17px;
+        font-size: 16px;
+    }
+    .recommend-flex {
+        margin-left: 13rem;
+    }
+}

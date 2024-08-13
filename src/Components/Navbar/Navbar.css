@@ -1,0 +1,231 @@
+.announcement-container {
+    height: 32px;
+    background-color: rgb(204, 0, 255, 0.8);   
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-container {
+    max-height: 72px;
+    background-color: white;
+    border-bottom: rgb(153, 0, 153) 1px solid;
+}
+.nav-list {
+	padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-menu {
+    flex: 1;
+    margin-left: 100px;
+}
+.navbar-title {
+    flex: 1;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 80px;
+}
+.nav-menu {
+    flex: 1;
+}
+.nav-items{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 120px;
+    gap: 1px;
+}
+.nav-list button {
+    width: 140px;
+    height: 42px;
+    outline: none;
+    border: 1px solid rgb(153, 0, 153);
+    max-width: fit-content;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: white;
+    padding: 5px 16px;
+    cursor: pointer;
+}
+.nav-items img {
+    margin-right: 30px;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width:575px) {
+    .announcement-container {
+        font-size: 11px;
+    }
+    .nav-list {
+        padding: 8px 1px;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .shop-menu {
+        margin-left: 15px;
+    }
+    .navbar-title {
+        font-size: 12px;
+        justify-content: center;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+    .nav-items {
+        margin-left: 17px;
+    }
+    .nav-items img {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-list button {
+        width: 58px;
+        height: 28px;
+        font-size: 11px;
+        margin-left: 5px;
+        align-self: center;
+        padding: 3px 12px;
+    }
+}
+ @media screen and (min-width: 576px) and (max-width:767px) {
+    .announcement-container {
+        font-size: 13px;
+    }
+    .nav-list {
+        padding: 9px 4px;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .shop-menu {
+        margin-left: 22px;
+    }
+    .navbar-title {
+        font-size: 15px;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+    .nav-items {
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .nav-items img {
+        width: 22px;
+        height: 22px;
+    }
+    .nav-list button {
+        width: 67px;
+        height: 33px;
+        font-size: 13px;
+        margin-left: 5px;
+        padding: 5px 15px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .announcement-container {
+        font-size: 15.5px;
+    }
+    .nav-list {
+        padding: 10px 7px;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .shop-menu {
+        margin-left: 40px;
+    }
+    .navbar-title {
+        font-size: 20px;
+        justify-content: center;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+    .nav-list button {
+        width: 80px;
+        height: 36px;
+        font-size: 15px;
+        margin-left: 7px;
+    }
+    .nav-items {
+        margin-left: 24px;
+        gap: 12px;
+    }
+    .nav-items img {
+        width: 24px;
+        height: 24px;
+    }
+    
+}
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .announcement-container {
+        font-size: 16.5px;
+    }
+    .nav-list {
+        padding: 10px 8px;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .shop-menu {
+        margin-left: 50px;
+    }
+    .nav-list .navbar-title {
+        font-size: 30px;
+        justify-content: center;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+    .nav-list button {
+        width: 90px;
+        height: 39px;
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    .nav-items {
+        margin-left: 26px;
+        gap: 13px;
+    }
+    .nav-items img {
+        width: 26px;
+        height: 26px;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width:1440px) {
+    .nav-list {
+        padding: 14px 6px;
+       align-items: center;
+       justify-content: space-between;
+    }
+    .shop-menu {
+        margin-left: 60px;
+    }
+    .nav-list .navbar-title {
+        font-size: 35px;
+        justify-content: center;
+    }
+    .nav-menu {
+        justify-content: center;
+    }
+    .nav-list button {
+        width: 90px;
+        height: 39px;
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    .nav-items {
+        gap: 15px;
+    }
+}

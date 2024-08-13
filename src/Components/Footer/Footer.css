@@ -1,0 +1,120 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 90px;
+    background: linear-gradient(180deg, white, rgb(204, 0, 255, 0.8) 75%);
+    color: white;
+	padding:8px;
+	min-height:30px;
+	border-top: rgb(153, 0, 153) 3px solid;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.footer-logo p {
+    font-size: 45px;
+	font-weight: 800;
+	color: rgb(51, 51, 51);
+}
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    color: rgb(51, 51, 51);
+    font-size: 25px; 
+    margin-top: 3px;  
+}
+.footer-links li {
+    cursor: pointer;
+}
+.footer-links li:hover {
+        color: white;
+        font-weight: bold;
+}
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+.footerIcons-container {
+    padding: 10px;
+    padding-bottom: 7px;
+    background-color: white;
+    border: 1px solid rgb(204, 204, 255);
+}
+.footer-img {
+    width: 60px;
+    height: 60px;
+    color: #000;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    width: 100%;
+    margin-bottom: 32px;
+    color: #000;
+    font-size: 20px;
+}
+.copyright hr {
+    width: 50%;
+    border: none;
+    border-radius: 12px;
+    height: 2px;
+    background-color: rgb(51, 51, 51);
+}
+
+
+@media screen and (max-width: 768px) {
+	.footer {
+        gap: 25px;
+    }
+    .footer-logo {
+        gap: 10px;
+        align-items: end;
+    }
+    .footer-logo img {
+        width: 55px;
+    }
+    .footer-logo p {
+       font-size: 28px;
+    }
+    .footer-links {
+        font-size: 18px;
+        gap: 12px;
+    }
+    .footerIcons-container {
+        width: 25px;
+    }
+    .copyright {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:560px) {
+    .footerIcons-container {
+        padding: 10px;
+        padding-bottom: 7px;
+    }
+    .footer-img {
+        width: 30px;
+        height: 30px;
+        color: #000;
+    }
+}
+@media screen and (min-width:560px) {
+    .footerIcons-container {
+        padding: 10px;
+        padding-bottom: 7px;
+    }
+    .footer-img {
+        width: 30px;
+        height: 30px;
+        color: #000;
+    }
+}

@@ -1,0 +1,46 @@
+.sidebar-title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.price-title {
+    margin-top: 10px;
+}
+.price {
+    margin-left: 16px;
+    font-size: 17px;
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width:559px) {
+    .price {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 560px) and (max-width:659px) {
+    .price {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 660px) and (max-width:749px) {
+    .price {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 750px) and (max-width:990px) {
+    .price {
+        font-size: 14.5px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1200px) {
+    .price {
+        font-size: 15.5px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width:1400px) {
+    .color {
+        font-size: 15.8px;
+    }
+}

@@ -1,0 +1,58 @@
+.popular h2 {
+    margin-top: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 45px;
+    font-weight: 600px;
+    text-align: center;
+}
+.popular-break  {
+    width: 250px;
+    height: 2px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 50px;
+    border: 1px solid rgb(153, 0, 153);
+}
+
+
+@media screen and (max-width: 1280px) {
+    .popular h2 {
+       font-size: 42px;
+    }
+    .popular-break {
+        width: 220px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .popular h2 {
+       font-size: 40px;
+    }
+    .popular-break {
+        width: 190px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .popular-arrival h2 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .popular h2 {
+        font-size: 32px;
+        margin-left: 70px;
+    }
+    .popular-break {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .popular h2 {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    .popular-break {
+        width: 140px;
+    }
+}    
+
+

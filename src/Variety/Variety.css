@@ -1,0 +1,162 @@
+.sidebar-title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    
+}
+.variety {
+    margin-left: 16px;
+    font-size: 16px;
+}
+.sidebar-label-container{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 7px 27px;
+}
+.sidebar-label-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 40%;
+}
+.sidebar-label-container input:hover ~ .checkmark {
+    background-color: white;
+}
+.sidebar-label-container input:checked ~ .checkmark {
+    background-color: rgb(204, 0, 255, 0.8);
+}
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.sidebar-label-container input:checked ~ .checkmark::after {
+    display: block;
+}
+.sidebar-label-container .checkmark::after {
+    top: 6px;
+    left: 6px;
+    width: 7.5px;
+    height: 7.5px;
+    border-radius: 45%;
+    background: white;
+}
+.line {
+    margin-top: 45px; 
+    border-color: darkgrey;
+}
+
+
+
+
+@media screen and (min-width: 319px) and (max-width:559px) {
+    .sidebar-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+    .sidebar-label-container {
+          padding-left: 17px;
+          padding: 3px 15px;
+    }
+    .sidebar-label-container input {
+          padding-left: 6px;
+    }
+    .checkmark {
+          width: 12px;
+          height: 12px;
+    }
+    .variety {
+        margin-left: 13px;
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 560px) and (max-width:659px) {
+    
+    .checkmark {
+        width: 14px;
+        height: 14px;
+    }
+    .sidebar-label-container {
+        padding: 3.5px 17px;
+    }
+    .variety {
+        margin-left: 13.5px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 660px) and (max-width:749px) {
+    
+    .checkmark {
+        width: 13px;
+        height: 13px;
+    }
+    .sidebar-label-container {
+        padding: 3.6px 19px;
+    }
+    .variety {
+        margin-left: 14px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 750px) and (max-width:990px) {
+    
+    .checkmark {
+        width: 12.5px;
+        height: 12.5px;
+    }
+    .sidebar-label-container {
+        padding-left: 22px;
+        padding: 3px 20px;
+    }
+    .sidebar-label-container input {
+        padding-left: 18px;
+    }
+    .variety {
+        margin-left: 14.5px;
+        font-size: 14.5px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width:1200px) {
+    .sidebar-title {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+      .sidebar-label-container {
+          padding-left: 25px;
+          padding: 3px 19px;
+    }
+      .sidebar-label-container input {
+          padding-left: 8px;
+    }
+      .checkmark {
+          width: 14px;
+          height: 14px;
+    }
+    .variety {
+        font-size: 15.5px;
+    }
+    
+}
+@media screen and (min-width: 1201px) and (max-width:1400px) {
+    .variety {
+        font-size: 15.8px;
+    }
+    .sidebar-label-container {
+        padding-left: 26px;
+        padding: 5px 21px;
+  }
+}

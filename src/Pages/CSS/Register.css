@@ -1,0 +1,176 @@
+.signup-container form {
+    max-width: 450px;
+	margin: 0 auto;
+	background-color: whitesmoke;
+	box-shadow: 2px 5px 9px rgb(140, 140, 140, 0.85);
+	padding: 42px;
+	text-align: center;  
+	margin-top: 35px;
+}
+.signup-container form h2 {
+	font-size: 40px;
+    font-weight: 500;
+	color: black;
+	padding-bottom: 5px;
+}
+.signup-container form .box {
+	width: 80%;
+	padding: 8px;
+	font-size: 24px;
+	color: #333;
+	border: border;
+	border-radius: 5px;
+	margin: 9px 0;
+	background-color: white;
+}
+.signup-container form p {
+	padding: 15px 0;
+	font-size: 20px;
+    font-weight: 300px;
+	color: black;
+}
+.box {
+	width: 90%;
+	margin-top: 20px;
+}
+.box input {
+	width: 100%;
+	border: 1px solid #333;
+	padding: 5px;
+	font-size: 18px;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+.signup-container button {
+    width: 67%;
+    height: 40px;
+    outline: none;
+    border: 1px solid grey;
+    max-width: fit-content;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: black;
+	color: white;
+	text-align: center;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+.signup-container button:hover {
+	background-color: grey;
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width:575px) {
+	.signup-container form {
+		max-width: 300px;
+		height: 500px;
+		padding: 20px;
+	}
+	.signup-container form h2 {
+		font-size: 30px;
+	}
+	.signup-container form p {
+		padding: 12px 0;
+		font-size: 17px;	
+	}
+	.signup-container form .box {
+		width: 63%;
+		font-size: 14px;
+	}
+	.box input {
+		font-size: 12px;
+	}
+	.signup-container button {
+		width: 60%;
+		height: 36px;
+		font-size: 15px;
+	}
+}
+@media screen and (min-width: 576px) and (max-width:767px) {
+	.signup-container form {
+		max-width: 380px;
+		height: 480px;
+		padding: 26px;
+	}
+	.signup-container form h2 {
+		font-size: 33px;
+	}
+	.signup-container form p {
+		padding: 12px 0;
+		font-size: 18px;	
+	}
+	.signup-container form .box {
+		width: 65%;
+		font-size: 16px;
+	}
+	.box input {
+		font-size: 13px;
+	}
+	.signup-container button {
+		width: 64%;
+		height: 37px;
+		font-size: 15px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+	.signup-container form {
+		max-width: 410px;
+		height: 480px;
+		padding: 30px;
+	}
+	.signup-container form h2 {
+		font-size: 36px;
+	}
+	.signup-container form p {
+		padding: 12px 0;
+		font-size: 19px;	
+	}
+	.signup-container form .box {
+		width: 70%;
+		font-size: 20px;
+	}
+	.signup-container form .box {
+		width: 68%;
+		font-size: 16px;
+	}
+	.box input {
+		font-size: 14px;
+	}
+	.signup-container button {
+		width: 64%;
+		height: 37px;
+		font-size: 16px;
+	}
+}
+@media screen and (min-width: 992px) and (max-width:1023px) {
+    .signup-container form {
+		max-width: 440px;
+		height: 500px;
+		padding: 30px;
+	}
+	.signup-container form h2 {
+		font-size: 38px;
+	}
+	.signup-container form p {
+		padding: 12px 0;
+		font-size: 19px;	
+	}
+	.signup-container form .box {
+		width: 70%;
+		font-size: 20px;
+	}
+	.signup-container form .box {
+		width: 68%;
+		font-size: 16px;
+	}
+	.box input {
+		font-size: 14px;
+	}
+	.signup-container button {
+		width: 70%;
+		height: 40px;
+		font-size: 17px;
+	}	
+}

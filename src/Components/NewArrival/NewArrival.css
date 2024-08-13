@@ -1,0 +1,56 @@
+.new-arrival h2 {
+    margin-top: 40px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    font-weight: 600px;
+    text-align: center;
+}
+.new-break {
+    width: 250px;
+    height: 3px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 50px;
+    border: 1px solid rgb(153, 0, 153);
+}
+
+
+@media screen and (max-width: 1280px) {
+    .new-arrival h2 {
+       font-size: 42px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .new-arrival h2 {
+        font-size: 39px;
+        margin-right: 70px;
+    }
+   
+}
+@media screen and (max-width: 992px) {
+    .new-arrival h2 {
+        font-size: 35px;
+        margin-left: 90px;
+    }
+    .new-break {
+        width: 190px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .new-arrival h2 {
+        font-size: 32px;
+        margin-left: 70px;
+    }
+    .new-break {
+        width: 160px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .new-arrival h2 {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    .new-break {
+        width: 140px;
+    }
+}
