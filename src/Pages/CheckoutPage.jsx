@@ -41,36 +41,6 @@ const CheckoutPage = () => {
         >
           <div className='modal-list'>
 
-           <div className='modal-left'>
-           <h5>Billing Information</h5>
-
-           <form action='' className='modal-form'>
-           <div className='modal-input'>
-           <input type="text" placeholder="Enter your Fullname" />
-           </div>
-           <div className='modal-input'>
-           <input type="email" placeholder="Enter your email address" />
-           </div>
-           <div className='modal-input'>
-           <input type="number" placeholder="Phone number" />
-           </div>
-           <div className='modal-input'>
-           <input type="text" placeholder="Street Address" />
-           </div>
-           <div className='modal-input'>
-           <input type="text" placeholder="City" />
-           </div>
-           <div className='modal-input'>
-           <input type="text" placeholder="Postal Code" />
-           </div>
-           <div className='modal-input'>
-           <input type="text" placeholder="Country" />
-           </div>
-
-           </form>
-
-           </div>
-
            <div className='modal-right'>
             <h5>Select Your Payment Method</h5>
             
