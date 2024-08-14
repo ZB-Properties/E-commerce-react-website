@@ -41,6 +41,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 15px;
 }
    
 .bag-icon {
@@ -52,18 +53,21 @@
   
 @media screen and (min-width: 319px) and (max-width:575px) {
     .card-container {
-        margin-left: 8rem;
+        margin-left: 7rem;
         grid-template-columns: 1fr 1fr; 
     }
     .card {
-        width: 75px;
-        height: 188px;
+        width: 60px;
+        height: 184px;
     }
     .card-img {
-        width: 60px;
+        width: 50px;
+    }
+    .card-price {
+        font-size: 10px;
     }
     .card-title {
-        font-size: 14px;
+        font-size: 12px;
     }
     .card-category {
         margin-top: 3px;

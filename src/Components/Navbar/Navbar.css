@@ -63,7 +63,7 @@
 
 @media screen and (min-width: 319px) and (max-width:575px) {
     .announcement-container {
-        font-size: 11px;
+        font-size: 10px;
     }
     .nav-list {
         padding: 8px 1px;
@@ -74,9 +74,9 @@
         margin-left: 15px;
     }
     .navbar-title {
-        font-size: 12px;
+        font-size: 10px;
         justify-content: center;
-        margin-right: 20px;
+        margin-right: 18px;
         text-align: center;
     }
     .nav-menu {
@@ -86,16 +86,16 @@
         margin-left: 17px;
     }
     .nav-items img {
-        width: 20px;
-        height: 20px;
+        width: 17px;
+        height: 17px;
     }
     .nav-list button {
-        width: 58px;
-        height: 28px;
-        font-size: 11px;
+        width: 53px;
+        height: 26px;
+        font-size: 9px;
         margin-left: 5px;
         align-self: center;
-        padding: 3px 12px;
+        padding: 2px 8px;
     }
 }
  @media screen and (min-width: 576px) and (max-width:767px) {
