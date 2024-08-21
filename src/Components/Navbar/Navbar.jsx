@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       <div className='navbar-title'>
-       <Link style={{ textDecoration: 'none' , color: 'black' }} to='/'>FRAGRANCE LAB</Link>
+       FRAGRANCE LAB
        </div>
 
        <div className='nav-menu'>
