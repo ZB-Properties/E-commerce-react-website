@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import my_products from '../Assets/my_products'
 import { AiFillStar } from "react-icons/ai"

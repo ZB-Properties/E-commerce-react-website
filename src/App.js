@@ -16,9 +16,10 @@ function App() {
   return (
     <div>
       
-      <BrowserRouter>
+    <BrowserRouter>
       <Announcement />
-     <Navbar />
+      <Navbar />
+      <Home />
      <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/shop' element={<Shop />} />
@@ -28,7 +29,7 @@ function App() {
       <Route path='/Cart' element={<Cart />} />
      </Routes>
 
-     </BrowserRouter>
+    </BrowserRouter>
     </div>
   );
 }
