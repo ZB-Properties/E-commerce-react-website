@@ -4,7 +4,7 @@
     margin-top: 45px;
     gap: 5px;
     align-items: center;
-    margin-left: 150px;
+    margin-left: 200px;
 }
 .similar-items {
     cursor: pointer;
@@ -21,13 +21,13 @@ margin-left: 25px;
 .similar-info h3 {
 font-size: 22px;
 font-weight: 500;
-margin-left: 70px;
+margin-left: 60px;
 align-items: center;
 }
 .similar-info span {
 font-size: 17px;
 font-weight: 500;
-margin-left: 70px;
+margin-left: 60px;
 color: rgb(51, 51, 51);
 }
 .similar-bottom {
@@ -40,7 +40,7 @@ padding: 5px;
 color: rgb(51, 51, 51) ;
 font-size: 18px;
 font-weight: 300px;
-margin-right: 160px;
+margin-right: 120px;
 }
 .similar-bottom .icon {
 font-size: 28px;
@@ -86,7 +86,7 @@ transition: 0.75s;
     .similar-bottom .price {
         font-size: 16px;
         font-weight: 400px;
-        margin-left: 17px;
+        margin-left: 35px;
     }
 }
 @media screen and (min-width: 576px) and (max-width:649px) {
@@ -118,7 +118,7 @@ transition: 0.75s;
     .similar-bottom .price {
         font-size: 17px;
         font-weight: 400px;
-        margin-left: 7px;
+        margin-left: 20px;
     }
 }
 @media screen and (min-width: 650px) and (max-width:767px) {

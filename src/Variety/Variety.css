@@ -33,7 +33,7 @@
     border-radius: 40%;
 }
 .sidebar-label-container input:hover ~ .checkmark {
-    background-color: white;
+    background-color: rgb(204, 0, 255, 0.8);
 }
 .sidebar-label-container input:checked ~ .checkmark {
     background-color: rgb(204, 0, 255, 0.8);
@@ -83,6 +83,13 @@
         margin-left: 13px;
         font-size: 13px;
     }
+    .sidebar-label-container .checkmark::after {
+       top: 3.5px;
+       left: 3.5px;
+       width: 4px;
+       height: 4px;
+       border-radius: 25%;
+   }
 }
 @media screen and (min-width: 560px) and (max-width:659px) {
     
@@ -97,6 +104,13 @@
         margin-left: 13.5px;
         font-size: 14px;
     }
+    .sidebar-label-container .checkmark::after {
+       top: 4px;
+       left: 4px;
+       width: 4.5px;
+       height: 4.5px;
+       border-radius: 28%;
+   }
 }
 @media screen and (min-width: 660px) and (max-width:749px) {
     
@@ -111,6 +125,13 @@
         margin-left: 14px;
         font-size: 15px;
     }
+    .sidebar-label-container .checkmark::after {
+       top: 3.5px;
+       left: 3.5px;
+       width: 4.5px;
+       height: 4.5px;
+       border-radius: 33%;
+   }
 }
 @media screen and (min-width: 750px) and (max-width:990px) {
     
@@ -129,6 +150,13 @@
         margin-left: 14.5px;
         font-size: 14.5px;
     }
+    .sidebar-label-container .checkmark::after {
+       top: 3.5px;
+       left: 3.5px;
+       width: 5px;
+       height: 5px;
+       border-radius: 38%;
+   }
 }
 @media screen and (min-width: 991px) and (max-width:1200px) {
     .sidebar-title {
@@ -149,7 +177,13 @@
     .variety {
         font-size: 15.5px;
     }
-    
+    .sidebar-label-container .checkmark::after {
+       top: 4px;
+       left: 4px;
+       width: 6px;
+       height: 6px;
+       border-radius: 42%;
+   }
 }
 @media screen and (min-width: 1201px) and (max-width:1400px) {
     .variety {

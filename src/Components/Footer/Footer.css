@@ -5,8 +5,8 @@
     justify-content: center;
     gap: 45px;
     margin-top: 90px;
-    background: linear-gradient(180deg, white, rgb(204, 0, 255, 0.8) 75%);
-    color: white;
+    background-color: rgb(204, 0, 255, 0.8);
+    color: black;
 	padding:8px;
 	min-height:30px;
 	border-top: rgb(153, 0, 153) 3px solid;
@@ -19,13 +19,13 @@
 .footer-logo p {
     font-size: 45px;
 	font-weight: 800;
-	color: rgb(51, 51, 51);
+	color: white;
 }
 .footer-links {
     display: flex;
     list-style: none;
     gap: 45px;
-    color: rgb(51, 51, 51);
+    color: white;
     font-size: 25px; 
     margin-top: 3px;  
 }
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 .footer-links li:hover {
-        color: white;
+        color: #000;
         font-weight: bold;
 }
 .footer-social {
@@ -59,7 +59,7 @@
     gap: 18px;
     width: 100%;
     margin-bottom: 32px;
-    color: #000;
+    color: white;
     font-size: 20px;
 }
 .copyright hr {
@@ -67,7 +67,7 @@
     border: none;
     border-radius: 12px;
     height: 2px;
-    background-color: rgb(51, 51, 51);
+    background-color: #000;
 }
 
 

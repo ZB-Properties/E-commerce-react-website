@@ -130,6 +130,10 @@
     font-size: 17px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
+}
+.coupon button:hover {
+    color: #000;
 }
 .total-heading h2 {
     font-size: 34px;
@@ -162,19 +166,20 @@
 .total-item p {
     font-size: 20px;
     font-weight: 500;
-    color: rgb(204, 51, 255, 0.9);
+    color: #000;
     margin-right: 40px;
 }
 .cart-button {
     display: flex;
     align-items: center;
     margin: 40px ;
+    margin-left: 60px;
     gap: 140px;
 }
 .proceed-btn {
     width: 240px;
     height: 45px;
-    background-color: rgb(153, 0, 153, 0.9);
+    background-color: rgb(204, 51, 255, 0.9);
     color: white;
     border-radius: 5px;
     font-size: 17px;
@@ -187,7 +192,7 @@
 .shopping-btn {
     width: 175px;
     height: 45px;
-    background-color: rgb(153, 0, 153, 0.9);
+    background-color: rgb(204, 51, 255, 0.9);
     color: white;
     border-radius: 5px;
     font-size: 17px;
@@ -198,7 +203,6 @@
     cursor: pointer;
 }
 .proceed-btn:hover, .shopping-btn:hover {
-    background-color: rgb(153, 0, 153, 0.5);
     color: #000;
 }
 

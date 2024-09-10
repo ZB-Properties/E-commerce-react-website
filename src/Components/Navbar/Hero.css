@@ -1,0 +1,182 @@
+.hero {
+	margin: 90px;
+}
+.hero-content {
+    background-image: url('https://img.freepik.com/premium-photo/design-3d-podium-scene-luxury-product-incorporating-elegant-lighting-perfume-background_573335-266.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1722816000&semt=ais_hybrid');
+	background-position: center center;
+	background-size: cover;
+    object-fit: contain;
+	overflow: hidden;
+	padding: 50px 50px;
+	border-radius: 6px;
+    width: 75%;
+    height: 350px;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.hero-content .badge {
+	display: inline-block;
+    padding: 5px 24px;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255, .2);
+	border: 1px solid rgb(204, 0, 255, 0.6);
+	color: #000;
+	font-size: 16px;
+	font-weight: 400;
+    margin-left: 100px;
+}
+.hero-title {
+	margin: 14px 100px;
+	font-size: 28px;
+	font-weight: 600;
+	color: white;
+}
+.hero-span {
+	color: black;
+    font-size: 18px;
+}
+.hero-btn {
+    border: none;
+    outline: none;
+    margin-left: 400px;
+    border-radius: 6px;
+    background: rgb(204, 0, 255, 0.9);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 52px;
+    margin-top: 60px;
+}
+.hero-btn:hover {
+   color: #000;
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width:575px) {
+    .hero {
+        margin: 20px;
+    }
+    .hero-content {
+        width: 50%;
+        max-height: 170px;
+        margin-left: 70px;
+    }
+    .hero-content .badge {
+        display: flex;
+	    margin-left: 10px;
+        padding: 1px 4px;
+        font-size: 10px;
+        display: none;
+    }
+    .hero-title {
+        font-size: 14.5px;
+        margin: 4px 10px;
+        margin-left: 10px;
+        padding: 3px 12px;
+    }
+    .hero-span {
+        font-size: 11.5px;
+    }
+    .hero-btn {
+        width: 85px;
+        height: 25px;
+        font-size: 10px;
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width:767px) {
+    .hero {
+        margin: 35px;
+    }
+    .hero-content {
+        width: 55%;
+        max-height: 200px;
+        margin-left: 80px;
+    }
+    .hero-content .badge {
+	   display: none;
+    }
+    .hero-title {
+        font-size: 16px;
+        margin: 15px 15px;
+        margin-left: 15px;
+        padding: 3px 14px;
+    }
+    .hero-span {
+        font-size: 13px;
+    }
+    .hero-btn {
+        width: 90px;
+        height: 28px;
+        font-size: 12px;
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .hero {
+        margin: 50px;
+    }
+    .hero-content {
+        width: 60%;
+        max-height: 240px;
+        margin-left: 120px;
+    }
+    .hero-content .badge {
+	    padding: 5px 10px;
+        font-size: 10px;
+        margin-bottom: 12px;
+        margin-left: 10px;
+    }
+    .hero-title {
+        font-size: 19px;
+        margin: 8px 20px;
+        margin-left: 10px;
+        padding: 8px 15px;
+    }
+    .hero-span {
+        font-size: 14px;
+    }
+    .hero-btn {
+        width: 130px;
+        height: 32px;
+        font-size: 15px;
+        margin-left: 120px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .hero {
+        margin: 65px;
+    }
+    .hero-content {
+        width: 68%;
+        max-height: 300px;
+        margin-left: 150px;
+    }
+    .hero-content .badge {
+	    padding: 5px 10px;
+        font-size: 12px;
+        margin-bottom: 12px;
+        margin-left: 20px;
+    }
+    .hero-title {
+        font-size: 23px;
+        margin: 8px 20px;
+        margin-left: 10px;
+        padding: 8px 15px;
+    }
+    .hero-span {
+        font-size: 16px;
+    }
+    .hero-btn {
+        width: 170px;
+        height: 45px;
+        font-size: 18px;
+        margin-left: 220px;
+    }
+}

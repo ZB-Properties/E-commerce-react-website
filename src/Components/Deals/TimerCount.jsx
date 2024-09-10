@@ -13,7 +13,7 @@ const TimerCount = () => {
    let interval;
 
    const countDown = () => {
-     const destination = new Date ('september 01, 2024').getTime()
+     const destination = new Date ('september 15, 2024').getTime()
       interval = setInterval(() =>{
          const now = new Date ().getTime()
          const different = destination-now

@@ -18,7 +18,7 @@ const CheckoutPage = () => {
 
   const location = useLocation();
   const navigate = useNavigate();
-  const from = location.state?.from?.pathname || "/"
+  const from = location.state?.from?.pathname || "/e-commerce-react-website"
 
   const handleConfirm = () => {
     alert("Your Order placement is successful!")
