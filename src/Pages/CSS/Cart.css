@@ -262,6 +262,7 @@
         max-width: 100px;
         height: 40px;
         font-size: 13px;
+        margin-left: 40px;
         gap: 80px;
     }
     .cart-down p {
