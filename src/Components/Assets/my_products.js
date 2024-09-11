@@ -928,7 +928,7 @@ const my_products = [
   
   {
       id: "58",
-      title: "Raining Cloud Diffusers",
+      title: "Raining Cloud",
     category: "Diffusers",
       imgURL3: "https://troyo.in/cdn/shop/files/RCEFinal_1920x1920_a106e64c-2de7-4c90-a66c-b39090c86d94.png?v=1710925794",
       reviews: "(10 reviews)",
