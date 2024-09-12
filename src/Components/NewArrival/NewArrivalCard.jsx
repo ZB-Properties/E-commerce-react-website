@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const NewArrivalCard = ({item, i}) => {
 
-  const {id, title, imgURL3, category, price,} =item
+  const {id, title, imgURL3, category, price} = item
 
   return (
     <Link style={{ textDecoration: 'none' , color: 'black' }} to={`/Card/${id}`} onClick={window.scrollTo(0, 0)}>
