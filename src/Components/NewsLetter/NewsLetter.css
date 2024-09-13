@@ -63,7 +63,7 @@
 	.newsletter-container {
 		margin-left: 25px;
 		width: 400px;
-		height: 370px;
+		height: 410px;
 	}
 	.newsletter_title {
 		font-size: 20px;
@@ -88,7 +88,7 @@
 	.newsletter-container {
 		margin-left: 55px;
 		width: 500px;
-		height: 430px;
+		height: 500px;
 	}
 	.newsletter_title {
 		font-size: 24px;
@@ -111,10 +111,10 @@
 }
 @media screen and (min-width: 768px) and (max-width:991px){
     .newsletter-container {
-		margin-left: 90px;
+		margin-left: 140px;
 		margin-top: 180px;
 		width: 600px;
-		height: 450px;
+		height: 480px;
 	}
 	.newsletter_title {
 		font-size: 27px;
@@ -137,7 +137,7 @@
 		margin-bottom: 70px;
 		margin-left: 110px;
 		width: 750px;
-		height: 430px;
+		height: 450px;
 	}
 	.newsletter_title {
 		font-size: 26px;
