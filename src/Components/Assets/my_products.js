@@ -117,7 +117,7 @@ const my_products = [
       id: "8",
       title: "LADY MILLION",
     category: "Female Perfumes",
-      imgURL3: "https://d27rxzjum6g2ik.cloudfront.net/Custom/Content/Products/46/66/46668_kit-coffret-paco-rabanne-lady-million-eau-de-parfum-feminino-80ml-hidratante-100ml-pr-10358-1067110_z6_637598662230078094.jpg",
+      imgURL3: "https://www.perfumedirect.com/cdn/shop/products/paco-rabanne-women-s-perfume-paco-rabanne-lady-million-eau-de-parfum-women-s-perfume-spray-30ml-50ml-80ml-32833668972703_large.png",
       reviews: "(10 reviews)",
       price: "450",
       company: "Designer Perfumes",
