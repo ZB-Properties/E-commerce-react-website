@@ -521,7 +521,7 @@ const my_products = [
       id: "33",
       title: "Khair Fusion",
     category: "Female Perfumes",
-      imgURL3: "https://salescabal.s3.eu-west-3.amazonaws.com/stores/109093/products/62fa9e63c6a405c549ccad0ebe8a0d5e46042125.jpeg",
+      imgURL3: "https://down-sg.img.susercontent.com/file/sg-11134207-7rdy0-m0phfqzuy6rt34",
       reviews: "(10 reviews)",
       price: "100",
       company: "Paris Corner",
