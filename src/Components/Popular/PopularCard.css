@@ -59,8 +59,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        padding-left: 32px;
-        margin-right: 10px;
+        padding-left: 30px;
         gap:inherit;
     }
     .popular-item {
@@ -75,7 +74,7 @@
     .popular-info h3 {
         font-size: 15px;
         font-weight: 600;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .popular-info span {
         font-size: 13px;
@@ -84,7 +83,7 @@
     .popular-bottom .price {
         font-size: 16px;
         font-weight: 400px;
-        margin-left: 35px;
+        margin-left: 20px;
     }
 }
 @media screen and (min-width: 576px) and (max-width:767px) {

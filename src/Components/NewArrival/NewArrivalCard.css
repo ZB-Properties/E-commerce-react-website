@@ -75,7 +75,7 @@ transition: 0.75s;
     .new-info h3 {
         font-size: 15px;
         font-weight: 600;
-        margin-left: 15px;
+        margin-left: 20px;
     }
     .new-info span {
         font-size: 13px;
@@ -84,7 +84,7 @@ transition: 0.75s;
     .new-bottom .price {
         font-size: 16px;
         font-weight: 400px;
-        margin-left: 35px;
+        margin-left: 20px;
     }
 }
 @media screen and (min-width: 576px) and (max-width:767px) {

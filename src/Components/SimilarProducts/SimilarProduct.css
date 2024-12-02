@@ -61,8 +61,8 @@ transition: 0.75s;
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        padding-left: 32px;
-        margin-right: 160px;
+        padding-left: 30px;
+        margin-right: 200px;
         gap:inherit;
     }
     .similar-items {
@@ -96,7 +96,7 @@ transition: 0.75s;
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        margin-left: 100px;
+        margin-left: 70px;
         gap:inherit;
     }
     .similar-items {

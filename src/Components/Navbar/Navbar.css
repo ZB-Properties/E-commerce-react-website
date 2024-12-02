@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-left: 120px;
-    gap: 1px;
+    gap: 12px;
 }
 .nav-list button {
     width: 140px;
@@ -131,7 +131,7 @@
         height: 33px;
         font-size: 13px;
         margin-left: 5px;
-        padding: 5px 15px;
+        padding: 5px 10px;
     }
 }
 @media screen and (min-width: 768px) and (max-width:991px) {

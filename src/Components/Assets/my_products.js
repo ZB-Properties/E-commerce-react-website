@@ -198,7 +198,7 @@ const my_products = [
   
   {
       id: "13",
-      title: "Hermes_twilly",
+      title: "Hermes twilly",
     category: "Female Perfumes",
       imgURL3: "https://fragrances.com.ng/media/catalog/product/cache/4cf9e516177489ae500dec59d26ccb3b/h/e/hermes_twilly_d_hermes_edp_85ml_perfume_for_women.jpg",
       reviews: "(10 reviews)",
@@ -246,7 +246,7 @@ const my_products = [
   
   {
       id: "16",
-     title: "Lancome_idole",
+     title: "Lancome idole",
     category: "Female Perfumes",
      imgURL3: "https://piimages.parfumo.de/5/9/142407_72613d61a060e5f35ba691c623f61422_idle-l-intense.jpg",
       reviews: "(10 reviews)",

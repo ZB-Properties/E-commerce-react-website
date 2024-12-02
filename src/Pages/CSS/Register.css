@@ -1,22 +1,24 @@
 .signup-container form {
-    max-width: 450px;
+    max-width: 330px;
+	height: 490px;
 	margin: 0 auto;
 	background-color: whitesmoke;
 	box-shadow: 2px 5px 9px rgb(140, 140, 140, 0.85);
-	padding: 42px;
+	padding: 37px;
 	text-align: center;  
 	margin-top: 35px;
 }
 .signup-container form h2 {
-	font-size: 40px;
+	font-size: 38px;
     font-weight: 500;
 	color: black;
 	padding-bottom: 5px;
+	margin-bottom: 22px;
 }
 .signup-container form .box {
-	width: 80%;
+	width: 65%;
 	padding: 8px;
-	font-size: 24px;
+	font-size: 20px;
 	color: #333;
 	border: border;
 	border-radius: 5px;
@@ -24,25 +26,26 @@
 	background-color: white;
 }
 .signup-container form p {
-	padding: 15px 0;
+	padding: 10px 0;
+	margin-bottom: 20px;
 	font-size: 20px;
     font-weight: 300px;
 	color: black;
 }
 .box {
-	width: 90%;
-	margin-top: 20px;
+	width: 75%;
+	margin-top: 15px;
 }
 .box input {
-	width: 100%;
+	width: 85%;
 	border: 1px solid #333;
 	padding: 5px;
 	font-size: 18px;
-	margin-top: 5px;
+	margin-top: 3px;
 	border-radius: 4px;
 }
 .signup-container button {
-    width: 67%;
+    width: 65%;
     height: 40px;
     outline: none;
     border: 1px solid grey;
@@ -64,9 +67,9 @@
 
 @media screen and (min-width: 319px) and (max-width:575px) {
 	.signup-container form {
-		max-width: 300px;
-		height: 500px;
-		padding: 20px;
+		max-width: 250px;
+		height: 450px;
+		padding: 25px;
 	}
 	.signup-container form h2 {
 		font-size: 30px;
@@ -76,22 +79,22 @@
 		font-size: 17px;	
 	}
 	.signup-container form .box {
-		width: 63%;
+		width: 59%;
 		font-size: 14px;
 	}
 	.box input {
 		font-size: 12px;
 	}
 	.signup-container button {
-		width: 60%;
+		width: 55%;
 		height: 36px;
 		font-size: 15px;
 	}
 }
 @media screen and (min-width: 576px) and (max-width:767px) {
 	.signup-container form {
-		max-width: 380px;
-		height: 480px;
+		max-width: 310px;
+		height: 460px;
 		padding: 26px;
 	}
 	.signup-container form h2 {
@@ -116,8 +119,8 @@
 }
 @media screen and (min-width: 768px) and (max-width:991px) {
 	.signup-container form {
-		max-width: 410px;
-		height: 480px;
+		max-width: 320px;
+		height: 470px;
 		padding: 30px;
 	}
 	.signup-container form h2 {
@@ -146,9 +149,9 @@
 }
 @media screen and (min-width: 992px) and (max-width:1023px) {
     .signup-container form {
-		max-width: 440px;
-		height: 500px;
-		padding: 30px;
+		max-width: 330px;
+		height: 490px;
+		padding: 28px;
 	}
 	.signup-container form h2 {
 		font-size: 38px;

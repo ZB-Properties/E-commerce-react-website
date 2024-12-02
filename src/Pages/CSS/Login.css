@@ -1,18 +1,19 @@
 .login {
-	width: 80%;
-	height: 75vh;
+	width: 75%;
+	height: 500px;
 	display: flex;
 	background-color: white;
 	padding: 50px;
 	justify-content: center;
-	margin-left: 45px;
+	margin-left: 100px;
 }
 .login .form-container {
-	width: 450px;
-	height: 540px;
+	width: 330px;
+	height: 450px;
 	background-color: whitesmoke;
+	margin-left: 30px;
 	margin: auto;
-	padding: 20px 60px;
+	padding: 20px 45px;
 	box-shadow: 3px 3px 5px  rgb(140, 140, 140, 0.85);
 }
 .form-container h2 {
